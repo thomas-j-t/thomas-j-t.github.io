@@ -1,0 +1,16 @@
+---
+title: "Football test"
+author: "TT"
+format: html
+editor: visual
+---
+
+```{r}
+#| echo: false
+#| warning: false
+library(tidyverse)
+library(DT)
+df <- datasets::mtcars
+table_test <- datatable(mtcars)
+datatable(mtcars)
+```
